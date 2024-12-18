@@ -21,6 +21,28 @@
     
 }
 
+.gallery{
+    background: greenyellow;
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.quote{
+    background: peachpuff;
+    border: 2px solid burlywood;
+
+    padding: 50px;
+}
+
+.quote p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .header{
     background: honeydew;
@@ -30,6 +52,12 @@
     align-items: center;
 }
 
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
 ul{
     display: flex;
     gap: 24px;
