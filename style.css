@@ -23,14 +23,19 @@ body{
 .main-one{
     color: #F9FAF8;
     font-size: 48px;
+    font-weight: 900;
 }
 
 .main-text{
     color: #E5E7EB;
     font-size: 18px;
+    font-weight: 350;
 }
 
 .gallery{
+    background-color: #F9FAF8;
+    color:#1F2937;
+    font-size: 36px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -40,17 +45,20 @@ body{
 
 .quote{
     background: #E5E7EB;
-    padding: 50px;
+    padding: 50px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .quote p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-grow: 0.5;
     font-size: 36px;
     font-style: italic;
+    font-weight: lighter;
     color: #1F2937;
+    max-width: 600px;
+    text-align: center; 
 }
 
 .header{
@@ -84,4 +92,9 @@ ul{
     display: flex;
     gap: 24px;
     padding: 20px;
+}
+
+.call-to-action{
+    background: #3882F6;
+    padding: 100px;
 }
