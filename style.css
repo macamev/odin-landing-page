@@ -33,7 +33,7 @@ body{
 }
 
 .gallery{
-    background-color: #F9FAF8;
+    background-color: white;
     color:#1F2937;
     font-size: 36px;
     display: flex;
@@ -94,7 +94,33 @@ ul{
     padding: 20px;
 }
 
+.gallery li{
+    border: 2px solid #3882F6;
+    border-radius: 25px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .call-to-action{
-    background: #3882F6;
+    background-color: white;
     padding: 100px;
+    
+}
+
+
+.action-container{
+    background: #3882F6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    color:#F9FAF8;
+    border-radius: 5px;
+}
+
+.call-to-action button{
+    color:white;
+    border: 1px solid white;
 }
